@@ -1,4 +1,4 @@
-namespace Srp.Solid.model;
+namespace WithOutSrp.Model;
 
 public enum SeniorityLevel
 {

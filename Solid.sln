@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutSrp", "WhithoutSrp\WithoutSrp.csproj", "{A33E089B-CDEB-4A15-8973-192E67FD4C8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithSrp", "WithSrp\WithSrp.csproj", "{5FF049EA-8C2F-464D-A8C8-25E3025F856F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A33E089B-CDEB-4A15-8973-192E67FD4C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33E089B-CDEB-4A15-8973-192E67FD4C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33E089B-CDEB-4A15-8973-192E67FD4C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF049EA-8C2F-464D-A8C8-25E3025F856F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF049EA-8C2F-464D-A8C8-25E3025F856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF049EA-8C2F-464D-A8C8-25E3025F856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF049EA-8C2F-464D-A8C8-25E3025F856F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

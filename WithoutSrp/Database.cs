@@ -1,8 +1,8 @@
-using Srp.Solid.model;
+using WithOutSrp.Model;
 
-namespace Solid.src;
+namespace WithOutSrp;
 
-public static class Startup
+public static class Database
 {
     public static IList<Employee> GetEmployees() {
         var employees = new List<Employee>();

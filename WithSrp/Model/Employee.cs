@@ -1,4 +1,4 @@
-namespace Srp.Solid.model;
+namespace WithSrp.Model;
 
 public class Employee
 {

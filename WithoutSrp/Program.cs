@@ -1,8 +1,8 @@
-﻿using Solid.src;
-using Srp.Solid.model;
+﻿using WithOutSrp;
+using WithOutSrp.Model;
 
 Console.Clear();
-var employees = Startup.GetEmployees();
+var employees = Database.GetEmployees();
 
 foreach(var emp in employees) {
     emp.Balance = CalcBalance(emp);
@@ -18,4 +18,4 @@ foreach(var emp in employees) {
 
 static decimal CalcBalance(Employee employee) => employee.WorkedHours * (employee.Earnings / employee.Workload);
 static void Pay(Employee emp) => Console.WriteLine($"{emp.Name} Funds transferred, done! {emp.Balance:C2}");
-static void UpdateEmployeeWorkedHours(Employee emp) => Console.WriteLine($"{emp.Name} works {emp.WorkedHours} of {emp.Workload} hours this month\n\n");
+static void UpdateEmployeeWorkedHours(Employee emp) => Console.WriteLine($"{emp.Name} worked {emp.WorkedHours} out of {emp.Workload} hours this month\n\n");
